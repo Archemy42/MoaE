@@ -1,0 +1,271 @@
+ideologies = {
+	
+	###### ROME MOD ######
+	
+	monarchy = {
+	
+		types = {
+		
+			kingdom  = {
+			}
+			
+			khanate  = {
+			}
+			
+			shogunate = {
+			}
+			
+			sultanate = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+		
+		color = { 130 05 80 }
+		
+		
+		war_impact_on_world_tension = 0.5		
+		faction_impact_on_world_tension = 0.15
+		
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_guarantee_other_ideologies = no
+
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.1
+			join_faction_tension = 0.1
+			lend_lease_tension = 0.1
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			justify_war_goal_when_in_major_war_time = -0.80
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		ai_neutral = yes # 
+	}
+	
+	empire = {
+	
+		types = {
+		
+			unitary_empire = {
+			}
+			
+			decentralized_empire = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+		
+		color = { 00 35 66 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.9
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	republic = {
+	
+		types = {
+			
+			merchant_republic = {
+			}
+		
+			aristocratic_republic = {
+			}
+		
+			democratic_republic = {
+			}
+			
+			oligarchic_republic = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 50 205 50 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.5
+			lend_lease_tension = 0.15
+			send_volunteers_tension = 0.2
+			guarantee_tension = 0.15
+			take_states_cost_factor = 0.15
+			annex_cost_factor = 0.25
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+	
+	chiefdom = {
+	
+		types = {
+		
+			tribal_tribe = {
+			}
+			
+			autocracy = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+		
+		color = { 00 00 00 }
+		
+		
+		war_impact_on_world_tension = 0.05		#no major danger
+		faction_impact_on_world_tension = 0.05
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = yes
+			can_guarantee_other_ideologies = no
+
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.1
+			join_faction_tension = 0.1
+			lend_lease_tension = 0.1
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			justify_war_goal_when_in_major_war_time = -0.75
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+		ai_neutral = yes # 
+	}
+	
+	theocracy = {
+	
+		types = {
+		
+			catholic_theocracy = {
+			}
+			
+			muslim_theocracy = {
+			}
+			
+			shintoist_theocracy = {
+			}
+			
+			buddhist_theocracy = {
+			}
+			
+			hinduist_theocracy = {
+			}
+			
+			jewish_theocracy = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+		
+		color = { 255 255 255 }
+		
+		
+		war_impact_on_world_tension = 0.5		#no major danger
+		faction_impact_on_world_tension = 0.5
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_send_volunteers = yes
+			can_guarantee_other_ideologies = no
+
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.1
+			join_faction_tension = 0.1
+			lend_lease_tension = 0.1
+			send_volunteers_tension = 0.1
+			guarantee_tension = 0.1
+			justify_war_goal_when_in_major_war_time = -0.9
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = yes
+		can_collaborate = no
+
+		ai_neutral = yes # 
+	}
+}

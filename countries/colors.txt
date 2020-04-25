@@ -1,0 +1,6 @@
+#reload countrycolors
+
+TEU = {
+	color = HSV { 73.64 11.06 78.04 }
+	color_ui = rgb { 200 207 176 }
+}

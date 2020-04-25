@@ -1,0 +1,16 @@
+#reload countrycolors
+
+TEU = {
+	color = HSV { 73.64 11.06 78.04 }
+	color_ui = rgb { 200 207 176 }
+}
+
+HAN = {
+	color = HSV { 348.44 100 95.69 }
+	color_ui = rgb { 255 0 70 }
+}
+
+BAV = {
+	color = HSV { 190.09 86.96 99.22 }
+	color_ui = rgb { 43 232 7249 }
+}

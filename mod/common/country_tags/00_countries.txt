@@ -1,3 +1,5 @@
 TEU	= "countries/Teutonic Order.txt"
 HAN	= "countries/Hannover.txt"
 BAV = "countries/Bavaria.txt"
+BRH = "countries/Rhin.txt
+BGC = "countries/Belgicus.txt

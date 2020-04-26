@@ -1,0 +1,116 @@
+﻿capital = 28
+
+oob = ""
+
+set_fuel_ratio = 0.8
+
+# Starting tech
+set_technology = {	
+}
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.6
+set_war_support = 0.2
+
+
+set_politics = {
+	ruling_party = empire
+	last_election = ""
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	theocracy = 0
+	republic = 5
+	empire = 95
+	monarchy = 0
+}
+
+add_ideas = {
+}
+
+create_country_leader = {
+	name = "Philippe III"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = unitary_empire
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Erasme von der Strepen"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = oligarchic_republic
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Erwin von Wettin"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = kingdom
+	traits = {
+	}
+}
+
+add_namespace = {
+	name = "brh_unit_leader"
+	type = unit_leader
+}
+
+create_field_marshal = {
+	name = ""
+	picture = ""
+	traits = { defensive_doctrine urban_assault_specialist old_guard }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1
+}
+
+create_corps_commander = {
+	name = ""
+	picture = ""
+	traits = { trait_cautious armor_officer }
+	skill = 1
+	id = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Karl Dönitz"
+	picture = "Portrait_Germany_Karl_Donitz.dds"
+	traits = { navy_career_officer seawolf }
+	skill = 5
+	id = 26
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 5
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = ""
+		GFX = 
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TEU }
+	}
+}

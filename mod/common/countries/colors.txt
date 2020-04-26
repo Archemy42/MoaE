@@ -12,5 +12,15 @@ HAN = {
 
 BAV = {
 	color = HSV { 190.09 86.96 99.22 }
-	color_ui = rgb { 43 232 7249 }
+	color_ui = rgb { 43 232 249 }
+}
+
+BRH = {
+	color = HSV { 40.89 90.6 58.43 }
+	color_ui = rgb { 150 118 22 }
+}
+
+BGC = {
+	color = HSV { 70.76 57.54 98.82 }
+	color_ui = rgb { 226 252 64 }
 }

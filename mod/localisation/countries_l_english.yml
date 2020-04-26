@@ -7,7 +7,7 @@
  TEU_empire_DEF:1 "the Empire of Germany"
  TEU_theocracy:0 "Teutonic Order"
  TEU_theocracy_DEF:0 "the Teutonic Order"
- TEU_chiefdom:0 "North German Tribe"
+ TEU_chiefdom:0 "German Barbaric Tribe"
  TEU_chiefdom_DEF:0 "the german tribe"
  TEU_monarchy_ADJ:0 "German"
  TEU_republic_ADJ:0 "Teutonic"
@@ -18,43 +18,6 @@
  TEU_DEF:0 "Germany"
  TEU_ADJ:0 "German"
  
- HAN_monarchy:0 "Kingdom of Hannover"
- HAN_monarchy_DEF:0 "the Kingdom of Hannover"
- HAN_republic:0 "Republic of Brunswick-Lüneburg"
- HAN_republic_DEF:0 "the Republic of Brunswick-Lüneburg"
- HAN_empire:1 "Empire of Hannover"
- HAN_empire_DEF:1 "Empire of Hannover"
- HAN_theocracy:0 "Holy State of Hannover"
- HAN_theocracy_DEF:0 "the Holy State of Hannover"
- HAN_chiefdom:0 "West German Tribes"
- HAN_chiefdom_DEF:0 "the West German Tribes"
- HAN_monarchy_ADJ:0 "Hannoverian"
- HAN_republic_ADJ:0 "Hannoverian"
- HAN_empire_ADJ:0 "Hannoverian"
- HAN_theocracy_ADJ:0 "Hannoverian"
- HAN_chiefdom_ADJ:0 "Hannoverian"
- HAN:0 "Hannover"
- HAN_DEF:0 "Hannover"
- HAN_ADJ:0 "Hannoverian"
- 
- BAV_monarchy:0 "Kingdom of Bavaria"
- BAV_monarchy_DEF:0 "the Kingdom of Bavaria"
- BAV_republic:0 "Bavarian Merchant Republic"
- BAV_republic_DEF:0 the Bavarian Merchant Republic"
- BAV_empire:1 "Bavarian Empire"
- BAV_empire_DEF:1 "the Bavarian Empire"
- BAV_theocracy:0 "Bavarian Bishopric"
- BAV_theocracy_DEF:0 "the Bavarian Bishopric"
- BAV_chiefdom:0 "South German Tribes"
- BAV_chiefdom_DEF:0 "the  German Tribes"
- BAV_monarchy_ADJ:0 "Bavarian"
- BAV_republic_ADJ:0 "Bavarian"
- BAV_empire_ADJ:0 "Bavarian"
- BAV_theocracy_ADJ:0 "Bavarian"
- BAV_chiefdom_ADJ:0 "Bavarian"
- BAV:0 "Bavaria"
- BAV_DEF:0 "Bavaria"
- BAV_ADJ:0 "Bavarian"
  #
  TAG_monarchy:0 ""
  TAG_monarchy_DEF:0 ""
@@ -76,7 +39,6 @@
  TAG_ADJ:0 ""
  #
  
- 
  # select all text within the two "#", ctrl+C then Ctrl+F -> replace ->
- # "HAN" in "find what" -> your country HAN in "Replace with" ->
+ # "TAG" in "find what" -> your country tag in "Replace with" ->
  # Click on Replace All -> then Ctrl+V to paste the template -> DONE !

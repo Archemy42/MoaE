@@ -1,3 +1,0 @@
-TEU	= "countries/Teutonic Order.txt"
-HAN	= "countries/Hannover.txt"
-BAV = "countries/Bavaria.txt"
